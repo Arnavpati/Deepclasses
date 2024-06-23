@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Classes</title>
+    <style>
+        body {
+            font-family: 'Helvetica Neue', Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+            color: #333;
+        }
+        header {
+            background-color: #003366;
+            color: #fff;
+            padding: 1em 0;
+            text-align: center;
+            position: relative;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        header img {
+            position: absolute;
+            left: 1em;
+            top: 50%;
+            transform: translateY(-50%);
+            height: 50px;
+        }
+        nav {
+            text-align: center;
+            background-color: #005bb5;
+            padding: 1em 0;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        }
+        nav a {
+            color: #fff;
+            margin: 0 1em;
+            text-decoration: none;
+            font-weight: bold;
+            transition: color 0.3s;
+        }
+        nav a:hover {
+            color: #ffd700;
+        }
+        .container {
+            width: 80%;
+            margin: 2em auto;
+            background-color: #fff;
+            padding: 2em;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            border-radius: 8px;
+        }
+        h2 {
+            color: #003366;
+            border-bottom: 2px solid #005bb5;
+            padding-bottom: 0.5em;
+            margin-bottom: 1em;
+        }
+        ul {
+            list-style-type: disc;
+            padding-left: 1.5em;
+        }
+        .about, .testimonials, .contact {
+            margin-bottom: 2em;
+        }
+        .testimonials p {
+            font-style: italic;
+            background-color: #e9f5ff;
+            padding: 1em;
+            border-left: 4px solid #005bb5;
+            margin: 1em 0;
+            border-radius: 4px;
+            transition: background-color 0.3s;
+        }
+        .testimonials p:hover {
+            background-color: #d0eaff;
+        }
+        .contact p {
+            font-weight: bold;
+            margin: 0.5em 0;
+        }
+        footer {
+            text-align: center;
+            padding: 1em 0;
+            background-color: #003366;
+            color: #fff;
+            margin-top: 2em;
+            box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.1);
+        }
+        .contact p {
+            margin: 0.2em 0;
+        }
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+            nav a {
+                display: block;
+                margin: 0.5em 0;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Deep Classes</h1>
+    </header>
+    <nav>
+        <a href="#services">Services</a>
+        <a href="#about">About Me</a>
+        <a href="#testimonials">Testimonials</a>
+        <a href="#contact">Contact</a>
+    </nav>
+    <div class="container">
+        <section id="services" class="services">
+            <h2>My Services</h2>
+            <p>I offer personalized tutoring in the following subjects:</p>
+            <ul>
+                <li>Art</li>
+                <li>Hindi</li>
+                <li>Marathi</li>
+            </ul>
+        </section>
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>Hi, I'm Deepti Patil, a dedicated and passionate tutor with years of experience in teaching Art, Hindi, and Marathi. My mission is to provide personalized learning experiences that help students excel academically and develop a genuine love for learning.</p>
+            <p>I hold a degree in Education and have worked with students of all ages and backgrounds. My approach is student-centered, focusing on each child's unique needs and learning style. Whether it's mastering a new language or exploring creative art techniques, I'm committed to helping my students achieve their goals.</p>
+        </section>
+        <section id="testimonials" class="testimonials">
+            <h2>Testimonials</h2>
+            <p>"DeepTutors offers personal tutoring for each child. Highly recommended!" - Parent A</p>
+            <p>"The tutor is knowledgeable and patient. Highly recommend!" - Parent B</p>
+            <p>"Deepti has been instrumental in improving my child's confidence and skills in Art. Her teaching methods are both effective and enjoyable." - Parent C</p>
+            <p>"My son has made remarkable progress in Hindi thanks to DeepTutors. Deepti's dedication and expertise are truly commendable." - Parent D</p>
+            <p>"Deepti's personalized approach to teaching Marathi has made a significant difference in my daughter's learning experience. We are grateful for her support." - Parent E</p>
+        </section>
+        <section id="contact" class="contact">
+            <h2>Contact Me</h2>
+            <p>Email: <a href="mailto:diptikishor05@gmail.com">diptikishor05@gmail.com</a></p>
+            <p>Phone: <a href="tel:+919967386868">+91 9967386868</a></p>
+            <p>Location: Offering both online and in-person tutoring services.</p>
+        </section>
+    </div>
+    <footer>
+        <p>&copy; 2024 Deep Classes. All rights reserved.</p>
+    </footer>
+</body>
+</html>
